@@ -38,4 +38,65 @@
   color: #000000;
   margin-right: 32px;
   white-space: nowrap;
+  opacity: 0.6;
+ }
+
+ .section-sell__nft {
+  display: flex;
+  flex-flow: column;
+  position: relative;
+ }
+
+ .section-sell__nft h1 {
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 96px;
+  color: #000000;
+  text-shadow: -5px 5px 0px #ffffff;
+  margin-top: 117px;
+ }
+
+ .section-sell__nft p {
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #532C59;
+  padding-top: 32px;
+  margin-bottom: 32px;
+ }
+
+ .section-sell__nft button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 114px;
+  background: #532C59;
+  border: none;
+  outline: none;
+  border-radius: 15px;
+  color: #fff;
+  padding: 16px 20px;
+
+  font-family: 'Syne';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  white-space: nowrap;
+  cursor: pointer;
+ }
+
+ .sell__nft-bg {
+  position: absolute;
+  width: 1440px;
+  height: 499px;
+  left: 0;
+  top: 57px;
+  background: radial-gradient(50% 50% at 50% 50%, #E36CE6 0%, rgba(255, 255, 255, 0) 100%);
+  opacity: 0.6;
+  filter: blur(116px);
+  z-index: -1;
  }
