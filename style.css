@@ -41,13 +41,15 @@
   opacity: 0.6;
  }
 
- .section-sell__nft {
+ .section-sellNft {
+  max-width: 1440px;
+  margin: 0 auto;
   display: flex;
   flex-flow: column;
   position: relative;
  }
 
- .section-sell__nft h1 {
+ .section-sellNft h1 {
   margin: 0 auto;
   text-align: center;
   font-weight: 700;
@@ -58,7 +60,7 @@
   margin-top: 117px;
  }
 
- .section-sell__nft p {
+ .section-sellNft p {
   text-align: center;
   font-weight: 400;
   font-size: 16px;
@@ -68,7 +70,7 @@
   margin-bottom: 32px;
  }
 
- .section-sell__nft button {
+ .section-sellNft button {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -89,7 +91,7 @@
   cursor: pointer;
  }
 
- .sell__nft-bg {
+ .sellNft-bg {
   position: absolute;
   width: 1440px;
   height: 499px;
@@ -100,3 +102,54 @@
   filter: blur(116px);
   z-index: -1;
  }
+
+ /* IMAGE SELL */
+
+ .section-sellNft img {
+  position: absolute;
+ }
+
+.sellNft__img1 {
+  width: 173px;
+  height: 174px;
+  top: 5px;
+  left: 53px;
+}
+
+.sellNft__img2 {
+  width: 111px;
+  height: 112px;
+  right: 167px;
+  top: 67px;
+}
+
+.sellNft__img3 {
+  width: 299px;
+  height: 300px;
+  left: -16px;
+  top: 298px;
+}
+
+.sellNft__img4 {
+  width: 211px;
+  height: 211px;
+  right: 33px;
+  top: 367px;
+}
+
+.section__partners {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 110px;
+  padding: 40px;
+  max-width: 1440px;
+}
+
+.section__partners img {
+  margin-right: 40px;
+}
+
+.section__partners img:last-child {
+  margin-right: 0px;
+}
