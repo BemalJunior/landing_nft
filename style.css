@@ -262,3 +262,43 @@
   text-align: center;
   color: #532C59;
 }
+
+/* section provide */
+
+.section__provide {
+  display: flex;
+  flex-flow: column;
+}
+
+.section__provide .wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 0 auto;
+}
+
+.provide__wrapper {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  width: 301px;
+  margin: 0 16px;
+}
+
+.provide__wrapper p {
+  font-family: 'Space Grotesk';
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+  text-align: center;
+  color: #000000;
+  margin: 16px 0;
+}
+.provide__wrapper span {
+  font-family: 'Space Grotesk';
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #532C59;
+  margin: 12px 0;
+}
