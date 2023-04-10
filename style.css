@@ -452,3 +452,43 @@
 .ready__wrapper img:nth-child(2) {
   right: 0;
 }
+
+
+/* footer */
+
+footer {
+  display: flex;
+  flex-flow: column;
+  margin: 0 auto;
+  max-width: 1440px;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+footer .top {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 41px;
+  border-bottom: 1px solid #CCD5DF;
+}
+
+footer .bottom {
+  text-align: center;
+  font-family: 'Space Grotesk';
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #000000;
+  opacity: 0.5;
+  padding: 40px 0;
+}
+
+footer a {
+  font-family: 'Space Grotesk';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  opacity: 0.5;
+}
